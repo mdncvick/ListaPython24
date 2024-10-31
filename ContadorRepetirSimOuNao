@@ -1,0 +1,10 @@
+N = int(input('Digite um número: '))
+while N > 100:
+    N = N + 3
+    print(N)
+R = str(input('Gostaria de repetir? [SIM/NAO] '))
+if ("SIM" == R):
+    N = N + 3
+    print(N)
+else
+    print('Fim do programa.')
