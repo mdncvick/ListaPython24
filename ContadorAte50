@@ -1,0 +1,4 @@
+N = int(input('Digite um número e contarei dele até 50: '))
+while N < 50:
+    N = N + 1
+    print(N)
